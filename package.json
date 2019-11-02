@@ -48,7 +48,7 @@
     "deploy:run": "docker run -d -p 3004:3004 BernieWalton/insight-api:$npm_package_version"
   },
   "dependencies": {
-    "async": "*",
+    "async": "2.6.1",
     "base58-native": "0.1.2",
     "bignum": "*",
     "morgan": "*",
